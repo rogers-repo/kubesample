@@ -1,0 +1,23 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: flippy-ingress
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+spec:
+  rules:
+    - host: flippy.com
+      http:
+        paths:
+          - path: /api/orders
+            backend:
+              serviceName: flippyapi-svc
+              servicePort: 9000
+          - path: /api/shop
+            backend:
+              serviceName: shopapi-svc
+              servicePort: 9010
+          - path: /api/delivery
+            backend:
+              serviceName: deliveryapi-svc
+              servicePort: 9005

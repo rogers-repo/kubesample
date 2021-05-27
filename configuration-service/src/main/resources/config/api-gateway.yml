@@ -1,0 +1,35 @@
+server:
+  port: ${SERVER_PORT:8765}
+  ssl:
+    enabled: false
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: ${EUREKA_URL:http://localhost:8761/eureka/}
+jwt:
+  secret: rogerjwt
+ribbon:
+  ReadTimeout: 60000
+
+
+
+zuul:
+  ignoredHeaders:
+  routes:
+    delivary:
+      path:  /api/delivery/**
+      strip-prefix: false
+      serviceId: delivery-agent-api-service
+      sensitiveHeaders:
+    apiflippy:
+      path:  /api/orders/**
+      strip-prefix: false
+      serviceId: flippy-api-service
+      sensitiveHeaders:
+    customer:
+      path: /api/shop/**
+      strip-prefix: false
+      serviceId: shop-partner-api-service
+      sensitiveHeaders:

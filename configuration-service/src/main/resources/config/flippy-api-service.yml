@@ -1,0 +1,34 @@
+server:
+  port: ${SERVER_PORT:9000}
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: ${EUREKA_URL:http://localhost:8761/eureka/}
+
+kafka:
+  shoptopic: ${KAFKA_SHOPTPOIC:shoporders}
+  customertopic: ${KAFKA_CUSTOMERTPOIC:customerorders}
+  deliverytopic: ${KAFKA_DELIVERYTPOIC:deliveryorders}
+  bootstrapAddress: ${KAFKA_HOST:localhost:9092}
+
+spring:
+  data:
+    mongodb:
+      host: ${MONGO_HOST:localhost}
+      port: ${MONGO_PORT:27017}
+      database: ${MONGO_DATABASE:orderdb}
+  resources:
+    chain:
+      enabled: true
+management:
+  security:
+    enabled: true
+
+jwt:
+  header: ${JWT_HEAD:Authorization}
+  secret: ${JWT_SECRET:rogerjwt}
+logging:
+  level:
+    org.springframework.security: DEBUG

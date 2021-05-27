@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: shop-partner-api-service
+  cloud:
+    config:
+      uri:
+        - ${CONFIG_SERVER_URL:http://localhost:8888/}

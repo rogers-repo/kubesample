@@ -1,0 +1,25 @@
+kafka:
+  shoptopic: shoporders
+  customertopic: customerorders
+  deliverytopic: deliveryorders
+  bootstrapAddress: localhost:9092
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: orderdb
+  resources:
+    chain:
+      enabled: true
+management:
+  security:
+    enabled: true
+
+jwt:
+  header: Authorization
+  secret: rogerjwt
+logging:
+  level:
+    org.springframework.security: DEBUG

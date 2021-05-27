@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="flippy-api-service" />
+        <module name="configuration-service" />
+        <module name="delivery-agent-api-service" />
+        <module name="api-gateway-service" />
+        <module name="service-registry" />
+        <module name="shop-partner-api-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-gateway-service" target="11" />
+      <module name="configuration-service" target="11" />
+      <module name="delivery-agent-api-service" target="11" />
+      <module name="flippy" target="11" />
+      <module name="flippy-api-service" target="11" />
+      <module name="service-registry" target="11" />
+      <module name="shop-partner-api-service" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-gateway-service" options="-parameters" />
+      <module name="configuration-service" options="-parameters" />
+      <module name="delivery-agent-api-service" options="-parameters" />
+      <module name="flippy-api-service" options="-parameters" />
+      <module name="service-registry" options="-parameters" />
+      <module name="shop-partner-api-service" options="-parameters" />
+    </option>
+  </component>
+</project>

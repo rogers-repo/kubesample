@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: flippy-configmap
+data:
+  config_url: http://config-svc:8888/
+  registry_url: http://registry-svc:8761/eureka
+  mongo_url: mongo-mongodb
+  kafka_url: kafka-0.kafka-headless.default.svc.cluster.local:9092
