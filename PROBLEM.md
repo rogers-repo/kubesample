@@ -11,7 +11,7 @@ As part of the solution, has  three apps:
 - [OpenApi Spec](./openapi.yaml)
 
 ## Milestones
-- **Step 1:** Create three projects, one each for microservice "Flippy API","Flippy Delivery Partner API", "Flippy Delivery Agent API"
-- **Step 2:** Setup Kubernetes Manifest files, to deploy each microservicein a different namespace. Also configure a separate database deployment for each microservice. You may choose to use NoSQL database of your choice (preferably MongoDB; also accepted Cassandra, DynamoDB, CosmosDB, Cloud Firestore)
-- **Step 3:** Implement the APIs, implement JWT Authorization, and ensure that the APIs are working with OpenAPI (Refer Specifications)
-- **Step 4:** Implement Messaging (Kafka), to synchronize Order data between the three microservices (As per the specification)
+-Three projects, one each for microservice "Flippy API","Flippy Delivery Partner API", "Flippy Delivery Agent API"
+- Setup Kubernetes Manifest files, to deploy each microservicein a different namespace. Also configure a separate database deployment for each microservice. You may -choose to use NoSQL database of your choice (preferably MongoDB; also accepted Cassandra, DynamoDB, CosmosDB, Cloud Firestore)
+-Implement the APIs, implement JWT Authorization, and ensure that the APIs are working with OpenAPI (Refer Specifications)
+- Implement Messaging (Kafka), to synchronize Order data between the three microservices (As per the specification)
