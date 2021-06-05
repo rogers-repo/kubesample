@@ -5,7 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/api-gateway-service/api-gateway-service.iml" filepath="$PROJECT_DIR$/api-gateway-service/api-gateway-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/configuration-service/configuration-service.iml" filepath="$PROJECT_DIR$/configuration-service/configuration-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/delivery-agent-api-service/delivery-agent-api-service.iml" filepath="$PROJECT_DIR$/delivery-agent-api-service/delivery-agent-api-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/flippy.iml" filepath="$PROJECT_DIR$/flippy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/foody.iml" filepath="$PROJECT_DIR$/foody.iml" />
       <module fileurl="file://$PROJECT_DIR$/foody-api-service/foody-api-service.iml" filepath="$PROJECT_DIR$/foody-api-service/foody-api-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-registry/service-registry.iml" filepath="$PROJECT_DIR$/service-registry/service-registry.iml" />
       <module fileurl="file://$PROJECT_DIR$/shop-partner-api-service/shop-partner-api-service.iml" filepath="$PROJECT_DIR$/shop-partner-api-service/shop-partner-api-service.iml" />

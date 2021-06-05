@@ -18,7 +18,7 @@
       <module name="api-gateway-service" target="11" />
       <module name="configuration-service" target="11" />
       <module name="delivery-agent-api-service" target="11" />
-      <module name="flippy" target="11" />
+      <module name="foody" target="11" />
       <module name="foody-api-service" target="11" />
       <module name="service-registry" target="11" />
       <module name="shop-partner-api-service" target="11" />
