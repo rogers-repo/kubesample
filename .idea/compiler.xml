@@ -7,11 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="flippy-api-service" />
-        <module name="configuration-service" />
         <module name="delivery-agent-api-service" />
+        <module name="configuration-service" />
         <module name="api-gateway-service" />
-        <module name="service-registry" />
         <module name="shop-partner-api-service" />
+        <module name="service-registry" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
