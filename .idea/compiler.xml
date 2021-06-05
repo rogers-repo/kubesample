@@ -6,12 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="flippy-api-service" />
         <module name="delivery-agent-api-service" />
         <module name="configuration-service" />
         <module name="api-gateway-service" />
         <module name="shop-partner-api-service" />
         <module name="service-registry" />
+        <module name="foody-api-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,7 +19,7 @@
       <module name="configuration-service" target="11" />
       <module name="delivery-agent-api-service" target="11" />
       <module name="flippy" target="11" />
-      <module name="flippy-api-service" target="11" />
+      <module name="foody-api-service" target="11" />
       <module name="service-registry" target="11" />
       <module name="shop-partner-api-service" target="11" />
     </bytecodeTargetLevel>
@@ -29,7 +29,7 @@
       <module name="api-gateway-service" options="-parameters" />
       <module name="configuration-service" options="-parameters" />
       <module name="delivery-agent-api-service" options="-parameters" />
-      <module name="flippy-api-service" options="-parameters" />
+      <module name="foody-api-service" options="-parameters" />
       <module name="service-registry" options="-parameters" />
       <module name="shop-partner-api-service" options="-parameters" />
     </option>

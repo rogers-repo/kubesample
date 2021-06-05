@@ -28,7 +28,7 @@
         <module>service-registry</module>
         <module>api-gateway-service</module>
         <module>delivery-agent-api-service</module>
-        <module>flippy-api-service</module>
+        <module>foody-api-service</module>
         <module>shop-partner-api-service</module>
 
     </modules>

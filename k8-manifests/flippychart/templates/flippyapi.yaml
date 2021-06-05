@@ -4,20 +4,20 @@ kind: Deployment
 metadata:
   name: flippiapi-deploy
   labels:
-    app: flippyapi
+    app: foodyapi
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
-      app: flippyapi
+      app: foodyapi
   template:
     metadata:
       labels:
-        app: flippyapi
+        app: foodyapi
     spec:
       containers:
-        - name: flippy-api
-          image: {{ .Values.flippyimage }}
+        - name: foody-api
+          image: {{ .Values.foodyimage }}
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - containerPort: 9000
@@ -25,22 +25,22 @@ spec:
             - name: spring.cloud.config.uri
               valueFrom:
                 configMapKeyRef:
-                  name: flippy-configmap
+                  name: foody-configmap
                   key: config_url
             - name: EUREKA_URL
               valueFrom:
                 configMapKeyRef:
-                  name: flippy-configmap
+                  name: foody-configmap
                   key: registry_url
             - name: KAFKA_HOST
               valueFrom:
                 configMapKeyRef:
-                  name: flippy-configmap
+                  name: foody-configmap
                   key: kafka_url
             - name: MONGO_HOST
               valueFrom:
                 configMapKeyRef:
-                  name: flippy-configmap
+                  name: foody-configmap
                   key: mongo_url
             - name: MONGO_PORT
               value: "27017"
@@ -61,11 +61,11 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: flippyapi-svc
+  name: foodyapi-svc
 spec:
   #type: NodePort
   selector:
-    app: flippyapi
+    app: foodyapi
   ports:
     - protocol: TCP
       #protocol: TCP

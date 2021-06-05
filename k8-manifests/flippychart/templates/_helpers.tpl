@@ -1,7 +1,7 @@
 {{/*
 Expand the name of the chart.
 */}}
-{{- define "flippychart.name" -}}
+{{- define "foodychart.name" -}}
 {{- default .Chart.Name .Values.nameOverride | trunc 63 | trimSuffix "-" }}
 {{- end }}
 
@@ -10,7 +10,7 @@ Create a default fully qualified app name.
 We truncate at 63 chars because some Kubernetes name fields are limited to this (by the DNS naming spec).
 If release name contains chart name it will be used as a full name.
 */}}
-{{- define "flippychart.fullname" -}}
+{{- define "foodychart.fullname" -}}
 {{- if .Values.fullnameOverride }}
 {{- .Values.fullnameOverride | trunc 63 | trimSuffix "-" }}
 {{- else }}
@@ -26,16 +26,16 @@ If release name contains chart name it will be used as a full name.
 {{/*
 Create chart name and version as used by the chart label.
 */}}
-{{- define "flippychart.chart" -}}
+{{- define "foodychart.chart" -}}
 {{- printf "%s-%s" .Chart.Name .Chart.Version | replace "+" "_" | trunc 63 | trimSuffix "-" }}
 {{- end }}
 
 {{/*
 Common labels
 */}}
-{{- define "flippychart.labels" -}}
-helm.sh/chart: {{ include "flippychart.chart" . }}
-{{ include "flippychart.selectorLabels" . }}
+{{- define "foodychart.labels" -}}
+helm.sh/chart: {{ include "foodychart.chart" . }}
+{{ include "foodychart.selectorLabels" . }}
 {{- if .Chart.AppVersion }}
 app.kubernetes.io/version: {{ .Chart.AppVersion | quote }}
 {{- end }}
@@ -45,17 +45,17 @@ app.kubernetes.io/managed-by: {{ .Release.Service }}
 {{/*
 Selector labels
 */}}
-{{- define "flippychart.selectorLabels" -}}
-app.kubernetes.io/name: {{ include "flippychart.name" . }}
+{{- define "foodychart.selectorLabels" -}}
+app.kubernetes.io/name: {{ include "foodychart.name" . }}
 app.kubernetes.io/instance: {{ .Release.Name }}
 {{- end }}
 
 {{/*
 Create the name of the service account to use
 */}}
-{{- define "flippychart.serviceAccountName" -}}
+{{- define "foodychart.serviceAccountName" -}}
 {{- if .Values.serviceAccount.create }}
-{{- default (include "flippychart.fullname" .) .Values.serviceAccount.name }}
+{{- default (include "foodychart.fullname" .) .Values.serviceAccount.name }}
 {{- else }}
 {{- default "default" .Values.serviceAccount.name }}
 {{- end }}

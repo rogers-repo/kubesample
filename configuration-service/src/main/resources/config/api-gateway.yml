@@ -23,10 +23,10 @@ zuul:
       strip-prefix: false
       serviceId: delivery-agent-api-service
       sensitiveHeaders:
-    apiflippy:
+    apifoody:
       path:  /api/orders/**
       strip-prefix: false
-      serviceId: flippy-api-service
+      serviceId: foody-api-service
       sensitiveHeaders:
     customer:
       path: /api/shop/**

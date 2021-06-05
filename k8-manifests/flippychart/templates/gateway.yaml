@@ -16,18 +16,18 @@ spec:
     spec:
       containers:
         - name: gateway-service
-          image: rogerdhas/flippyapigateway
+          image: rogerdhas/foodyapigateway
           imagePullPolicy: Always
           env:
             - name: spring.cloud.config.uri
               valueFrom:
                 configMapKeyRef:
-                  name: flippy-configmap
+                  name: foody-configmap
                   key: config_url
             - name: EUREKA_URL
               valueFrom:
                 configMapKeyRef:
-                  name: flippy-configmap
+                  name: foody-configmap
                   key: registry_url
           ports:
             - containerPort: 8765

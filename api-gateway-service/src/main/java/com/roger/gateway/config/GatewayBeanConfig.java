@@ -18,7 +18,7 @@ import java.util.Collections;
 public class GatewayBeanConfig {
 
     public static final String DELIVERY_API_URL = "/api/delivery/orders/*";
-    public static final String FLIPPY_API_URL = "/api/orders/*";
+    public static final String foody_API_URL = "/api/orders/*";
     public static final String SHOP_API_URL = "/api/shop/orders/*";
 
 
@@ -28,7 +28,7 @@ public class GatewayBeanConfig {
         filter.setFilter(new JwtValidationFilter());
 
         filter.addUrlPatterns(DELIVERY_API_URL,
-                FLIPPY_API_URL,
+                foody_API_URL,
                 SHOP_API_URL);
         return filter;
     }

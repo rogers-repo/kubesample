@@ -24,22 +24,22 @@ spec:
             - name: spring.cloud.config.uri
               valueFrom:
                 configMapKeyRef:
-                  name: flippy-configmap
+                  name: foody-configmap
                   key: config_url
             - name: EUREKA_URL
               valueFrom:
                 configMapKeyRef:
-                  name: flippy-configmap
+                  name: foody-configmap
                   key: registry_url
             - name: KAFKA_HOST
               valueFrom:
                 configMapKeyRef:
-                  name: flippy-configmap
+                  name: foody-configmap
                   key: kafka_url
             - name: MONGO_HOST
               valueFrom:
                 configMapKeyRef:
-                  name: flippy-configmap
+                  name: foody-configmap
                   key: mongo_url
             - name: MONGO_PORT
               value: "27017"

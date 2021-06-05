@@ -4,7 +4,7 @@
     <file url="file://$PROJECT_DIR$/api-gateway-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/configuration-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/delivery-agent-api-service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/flippy-api-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/foody-api-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-registry/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-partner-api-service/src/main/java" charset="UTF-8" />
   </component>

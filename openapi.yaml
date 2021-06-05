@@ -1,7 +1,7 @@
 openapi: 3.0.1
 info:
-  title: Flippy
-  description: '**Flippy**'
+  title: foody
+  description: '**foody**'
   contact:
     name: roger
     url: http://roger.in
@@ -12,16 +12,16 @@ info:
 servers:
 - url: http://localhost:7000
   description: Local Server
-- url: http://dev-flippy.com
+- url: http://dev-foody.com
   description: Dev
-- url: http://flippy.com
+- url: http://foody.com
   description: Prod
 tags:
-- name: Flippy
+- name: foody
   description: Browse shops, their menus and place orders
-- name: Flippy Shop Partner
+- name: foody Shop Partner
   description: Receiving and accepting new orders for shop
-- name: Flippy Delivery Agent
+- name: foody Delivery Agent
   description: On-route delivery status
   
 security:
@@ -31,7 +31,7 @@ paths:
   /api/orders:
     post:
       tags:
-      - Flippy
+      - foody
       summary: 'Place order (Returns: CustomerOrder)'
       operationId: createOrder
       requestBody:
@@ -53,7 +53,7 @@ paths:
           content: {}
     get:
       tags:
-      - Flippy
+      - foody
       summary: 'Get all Customer Orders (paginated) (Returns: CustomerOrdersList)'
       parameters:
       - name: customerId
@@ -118,7 +118,7 @@ paths:
   /api/orders/{orderId}:
     get:
       tags:
-      - Flippy
+      - foody
       summary: 'Get specific Customer Order (Returns: CustomerOrder)'
       parameters:
       - name: orderId
@@ -155,7 +155,7 @@ paths:
   /api/shop/orders:
     get:
       tags:
-      - Flippy Shop Partner
+      - foody Shop Partner
       summary: 'Get all Shop Orders (paginated) (Returns: ShopOrdersList)'
       parameters:
       - name: shopId
@@ -221,7 +221,7 @@ paths:
   /api/shop/orders/{orderId}:
     get:
       tags:
-      - Flippy Shop Partner
+      - foody Shop Partner
       summary: 'Get specific Shop Order (Returns: ShopOrder)'
       parameters:
       - name: orderId
@@ -258,7 +258,7 @@ paths:
   /api/shop/orders/{orderId}/accept:
     put:
       tags:
-      - Flippy Shop Partner
+      - foody Shop Partner
       summary: 'Accept order (Returns: ShopOrder)'
       parameters:
       - name: orderId
@@ -295,7 +295,7 @@ paths:
   /api/shop/orders/{orderId}/reject:
     put:
       tags:
-      - Flippy Shop Partner
+      - foody Shop Partner
       summary: 'Reject order (Returns: ShopOrderRejectRecord)'
       parameters:
       - name: orderId
@@ -331,7 +331,7 @@ paths:
   /api/shop/orders/{orderId}/ready:
     put:
       tags:
-      - Flippy Shop Partner
+      - foody Shop Partner
       summary: 'Order is ready (Returns: ShopOrderReadyRecord)'
       parameters:
       - name: orderId
@@ -370,7 +370,7 @@ paths:
   /api/delivery/orders:
     get:
       tags:
-      - Flippy Delivery Agent
+      - foody Delivery Agent
       summary: 'Get all Agent Orders (paginated) (Returns: AgentOrdersList)'
       parameters:
       - name: agentId
@@ -436,7 +436,7 @@ paths:
   /api/delivery/orders/{orderId}:
     get:
       tags:
-      - Flippy Delivery Agent
+      - foody Delivery Agent
       summary: 'Get specific Agent Order (Returns: AgentOrder)'
       parameters:
       - name: orderId
@@ -473,7 +473,7 @@ paths:
   /api/delivery/orders/{orderId}/arrive:
     put:
       tags:
-      - Flippy Delivery Agent
+      - foody Delivery Agent
       summary: 'Arrived at Shop (Returns: AgentArrivedRecord)'
       parameters:
       - name: orderId
@@ -510,7 +510,7 @@ paths:
   /api/delivery/orders/{orderId}/pickup:
     put:
       tags:
-      - Flippy Delivery Agent
+      - foody Delivery Agent
       summary: 'Picked up Delivery (Returns: AgentPickupRecord)'
       parameters:
       - name: orderId
@@ -546,7 +546,7 @@ paths:
   /api/delivery/orders/{orderId}/deliver:
     put:
       tags:
-      - Flippy Delivery Agent
+      - foody Delivery Agent
       summary: 'Order Delivered (Returns: AgentDeliveredRecord)'
       parameters:
       - name: orderId
