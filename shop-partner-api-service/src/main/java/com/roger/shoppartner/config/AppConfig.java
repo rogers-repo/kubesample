@@ -1,4 +1,4 @@
-package com.stackroute.shoppartner.config;
+package com.roger.shoppartner.config;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;

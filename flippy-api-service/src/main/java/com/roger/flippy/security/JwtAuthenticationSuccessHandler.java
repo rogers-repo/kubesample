@@ -1,4 +1,4 @@
-package com.stackroute.flippy.security;
+package com.roger.flippy.security;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;

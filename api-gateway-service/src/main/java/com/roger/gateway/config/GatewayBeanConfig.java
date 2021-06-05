@@ -1,6 +1,6 @@
-package com.stackroute.gateway.config;
+package com.roger.gateway.config;
 
-import com.stackroute.gateway.filter.JwtValidationFilter;
+import com.roger.gateway.filter.JwtValidationFilter;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

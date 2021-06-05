@@ -1,4 +1,4 @@
-package com.stackroute.shoppartner.exception;
+package com.roger.shoppartner.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

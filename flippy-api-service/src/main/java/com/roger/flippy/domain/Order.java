@@ -1,4 +1,4 @@
-package com.stackroute.flippy.domain;
+package com.roger.flippy.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

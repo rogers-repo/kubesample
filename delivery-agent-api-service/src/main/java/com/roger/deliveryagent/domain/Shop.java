@@ -1,4 +1,4 @@
-package com.stackroute.deliveryagent.domain;
+package com.roger.deliveryagent.domain;
 
 public class Shop {
 }

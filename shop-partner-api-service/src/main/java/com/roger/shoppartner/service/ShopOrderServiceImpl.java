@@ -1,11 +1,11 @@
-package com.stackroute.shoppartner.service;
+package com.roger.shoppartner.service;
 
-import com.stackroute.shoppartner.domain.Order;
-import com.stackroute.shoppartner.domain.ShopPartner;
-import com.stackroute.shoppartner.exception.OrderNotFoundException;
-import com.stackroute.shoppartner.exception.ShopNotExist;
-import com.stackroute.shoppartner.repository.ShopOrderRepository;
-import com.stackroute.shoppartner.security.model.AuthenticatedUser;
+import com.roger.shoppartner.domain.Order;
+import com.roger.shoppartner.domain.ShopPartner;
+import com.roger.shoppartner.exception.OrderNotFoundException;
+import com.roger.shoppartner.exception.ShopNotExist;
+import com.roger.shoppartner.repository.ShopOrderRepository;
+import com.roger.shoppartner.security.model.AuthenticatedUser;
 import lombok.extern.slf4j.Slf4j;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;

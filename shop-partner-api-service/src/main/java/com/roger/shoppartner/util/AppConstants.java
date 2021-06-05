@@ -1,4 +1,4 @@
-package com.stackroute.shoppartner.util;
+package com.roger.shoppartner.util;
 
 import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.service.ApiInfo;

@@ -1,8 +1,8 @@
-package com.stackroute.shoppartner.service;
+package com.roger.shoppartner.service;
 
-import com.stackroute.shoppartner.domain.Order;
-import com.stackroute.shoppartner.exception.OrderNotFoundException;
-import com.stackroute.shoppartner.exception.ShopNotExist;
+import com.roger.shoppartner.domain.Order;
+import com.roger.shoppartner.exception.OrderNotFoundException;
+import com.roger.shoppartner.exception.ShopNotExist;
 
 import java.util.List;
 

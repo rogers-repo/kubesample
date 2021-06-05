@@ -1,9 +1,9 @@
-package com.stackroute.flippy.service;
+package com.roger.flippy.service;
 
-import com.stackroute.flippy.domain.Order;
-import com.stackroute.flippy.exception.CustomerNotFoundException;
-import com.stackroute.flippy.exception.OrderExistsException;
-import com.stackroute.flippy.exception.OrderNotFoundException;
+import com.roger.flippy.domain.Order;
+import com.roger.flippy.exception.CustomerNotFoundException;
+import com.roger.flippy.exception.OrderExistsException;
+import com.roger.flippy.exception.OrderNotFoundException;
 
 import java.util.List;
 

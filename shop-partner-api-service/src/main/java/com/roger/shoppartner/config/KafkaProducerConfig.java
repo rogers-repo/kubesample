@@ -1,7 +1,7 @@
-package com.stackroute.shoppartner.config;
+package com.roger.shoppartner.config;
 
 
-import com.stackroute.shoppartner.domain.Order;
+import com.roger.shoppartner.domain.Order;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
 import org.springframework.beans.factory.annotation.Value;

@@ -1,4 +1,4 @@
-package com.stackroute.flippy;
+package com.roger.flippy;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,6 +1,6 @@
-package com.stackroute.shoppartner.service;
+package com.roger.shoppartner.service;
 
-import com.stackroute.shoppartner.domain.Order;
+import com.roger.shoppartner.domain.Order;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;

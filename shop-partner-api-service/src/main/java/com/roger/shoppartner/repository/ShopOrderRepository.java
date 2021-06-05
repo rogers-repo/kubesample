@@ -1,6 +1,6 @@
-package com.stackroute.shoppartner.repository;
+package com.roger.shoppartner.repository;
 
-import com.stackroute.shoppartner.domain.Order;
+import com.roger.shoppartner.domain.Order;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.mongodb.repository.MongoRepository;

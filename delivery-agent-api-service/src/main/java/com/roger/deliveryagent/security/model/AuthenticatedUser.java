@@ -1,4 +1,4 @@
-package com.stackroute.deliveryagent.security.model;
+package com.roger.deliveryagent.security.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.security.core.GrantedAuthority;

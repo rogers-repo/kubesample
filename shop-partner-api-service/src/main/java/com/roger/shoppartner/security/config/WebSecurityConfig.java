@@ -1,9 +1,9 @@
-package com.stackroute.shoppartner.security.config;
+package com.roger.shoppartner.security.config;
 
-import com.stackroute.shoppartner.security.JwtAuthenticationEntryPoint;
-import com.stackroute.shoppartner.security.JwtAuthenticationProvider;
-import com.stackroute.shoppartner.security.JwtAuthenticationSuccessHandler;
-import com.stackroute.shoppartner.security.JwtAuthenticationTokenFilter;
+import com.roger.shoppartner.security.JwtAuthenticationEntryPoint;
+import com.roger.shoppartner.security.JwtAuthenticationProvider;
+import com.roger.shoppartner.security.JwtAuthenticationSuccessHandler;
+import com.roger.shoppartner.security.JwtAuthenticationTokenFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Bean;

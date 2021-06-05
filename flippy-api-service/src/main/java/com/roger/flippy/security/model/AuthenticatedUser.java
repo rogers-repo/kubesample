@@ -1,4 +1,4 @@
-package com.stackroute.flippy.security.model;
+package com.roger.flippy.security.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.security.core.GrantedAuthority;

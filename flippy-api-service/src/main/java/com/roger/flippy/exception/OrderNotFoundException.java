@@ -1,4 +1,4 @@
-package com.stackroute.flippy.exception;
+package com.roger.flippy.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

@@ -1,4 +1,4 @@
-package com.stackroute.shoppartner.exception;
+package com.roger.shoppartner.exception;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonInclude;

@@ -1,9 +1,9 @@
-package com.stackroute.deliveryagent.security.config;
+package com.roger.deliveryagent.security.config;
 
-import com.stackroute.deliveryagent.security.JwtAuthenticationEntryPoint;
-import com.stackroute.deliveryagent.security.JwtAuthenticationProvider;
-import com.stackroute.deliveryagent.security.JwtAuthenticationSuccessHandler;
-import com.stackroute.deliveryagent.security.JwtAuthenticationTokenFilter;
+import com.roger.deliveryagent.security.JwtAuthenticationEntryPoint;
+import com.roger.deliveryagent.security.JwtAuthenticationProvider;
+import com.roger.deliveryagent.security.JwtAuthenticationSuccessHandler;
+import com.roger.deliveryagent.security.JwtAuthenticationTokenFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Bean;

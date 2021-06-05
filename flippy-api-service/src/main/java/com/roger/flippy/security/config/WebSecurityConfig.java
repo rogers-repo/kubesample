@@ -1,9 +1,9 @@
-package com.stackroute.flippy.security.config;
+package com.roger.flippy.security.config;
 
-import com.stackroute.flippy.security.JwtAuthenticationEntryPoint;
-import com.stackroute.flippy.security.JwtAuthenticationProvider;
-import com.stackroute.flippy.security.JwtAuthenticationSuccessHandler;
-import com.stackroute.flippy.security.JwtAuthenticationTokenFilter;
+import com.roger.flippy.security.JwtAuthenticationEntryPoint;
+import com.roger.flippy.security.JwtAuthenticationProvider;
+import com.roger.flippy.security.JwtAuthenticationSuccessHandler;
+import com.roger.flippy.security.JwtAuthenticationTokenFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Bean;

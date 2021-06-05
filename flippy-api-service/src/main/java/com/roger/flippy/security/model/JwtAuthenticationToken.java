@@ -1,4 +1,4 @@
-package com.stackroute.flippy.security.model;
+package com.roger.flippy.security.model;
 
 
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

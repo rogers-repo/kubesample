@@ -1,6 +1,6 @@
-package com.stackroute.flippy.service;
+package com.roger.flippy.service;
 
-import com.stackroute.flippy.domain.Order;
+import com.roger.flippy.domain.Order;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;

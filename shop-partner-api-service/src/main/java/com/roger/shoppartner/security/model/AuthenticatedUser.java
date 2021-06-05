@@ -1,4 +1,4 @@
-package com.stackroute.shoppartner.security.model;
+package com.roger.shoppartner.security.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.security.core.GrantedAuthority;

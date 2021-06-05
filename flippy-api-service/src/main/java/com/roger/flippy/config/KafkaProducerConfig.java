@@ -1,6 +1,6 @@
-package com.stackroute.flippy.config;
+package com.roger.flippy.config;
 
-import com.stackroute.flippy.domain.Order;
+import com.roger.flippy.domain.Order;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
 import org.springframework.beans.factory.annotation.Value;

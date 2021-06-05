@@ -1,10 +1,10 @@
-package com.stackroute.flippy.security;
+package com.roger.flippy.security;
 
-import com.stackroute.flippy.security.exception.JwtTokenMalformedException;
-import com.stackroute.flippy.security.model.AuthenticatedUser;
-import com.stackroute.flippy.security.model.JwtAuthenticationToken;
-import com.stackroute.flippy.security.transfer.JwtUserDto;
-import com.stackroute.flippy.security.util.JwtTokenValidator;
+import com.roger.flippy.security.exception.JwtTokenMalformedException;
+import com.roger.flippy.security.model.AuthenticatedUser;
+import com.roger.flippy.security.model.JwtAuthenticationToken;
+import com.roger.flippy.security.transfer.JwtUserDto;
+import com.roger.flippy.security.util.JwtTokenValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider;

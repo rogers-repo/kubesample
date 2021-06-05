@@ -1,11 +1,11 @@
-package com.stackroute.deliveryagent.dto;
+package com.roger.deliveryagent.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.stackroute.deliveryagent.domain.Agent;
-import com.stackroute.deliveryagent.domain.Customer;
-import com.stackroute.deliveryagent.domain.Item;
-import com.stackroute.deliveryagent.domain.ShopPartner;
+import com.roger.deliveryagent.domain.Agent;
+import com.roger.deliveryagent.domain.Customer;
+import com.roger.deliveryagent.domain.Item;
+import com.roger.deliveryagent.domain.ShopPartner;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;

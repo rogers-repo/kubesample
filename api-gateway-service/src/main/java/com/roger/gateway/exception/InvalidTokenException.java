@@ -1,4 +1,4 @@
-package com.stackroute.gateway.exception;
+package com.roger.gateway.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

@@ -1,7 +1,7 @@
-package com.stackroute.flippy.security;
+package com.roger.flippy.security;
 
-import com.stackroute.flippy.security.exception.JwtTokenMissingException;
-import com.stackroute.flippy.security.model.JwtAuthenticationToken;
+import com.roger.flippy.security.exception.JwtTokenMissingException;
+import com.roger.flippy.security.model.JwtAuthenticationToken;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter;

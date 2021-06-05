@@ -1,7 +1,7 @@
-package com.stackroute.shoppartner.security;
+package com.roger.shoppartner.security;
 
-import com.stackroute.shoppartner.security.exception.JwtTokenMissingException;
-import com.stackroute.shoppartner.security.model.JwtAuthenticationToken;
+import com.roger.shoppartner.security.exception.JwtTokenMissingException;
+import com.roger.shoppartner.security.model.JwtAuthenticationToken;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter;

@@ -1,12 +1,12 @@
-package com.stackroute.flippy.service;
+package com.roger.flippy.service;
 
-import com.stackroute.flippy.domain.Customer;
-import com.stackroute.flippy.domain.Order;
-import com.stackroute.flippy.exception.CustomerNotFoundException;
-import com.stackroute.flippy.exception.OrderExistsException;
-import com.stackroute.flippy.exception.OrderNotFoundException;
-import com.stackroute.flippy.repository.CustomerOrderRepository;
-import com.stackroute.flippy.security.model.AuthenticatedUser;
+import com.roger.flippy.domain.Customer;
+import com.roger.flippy.domain.Order;
+import com.roger.flippy.exception.CustomerNotFoundException;
+import com.roger.flippy.exception.OrderExistsException;
+import com.roger.flippy.exception.OrderNotFoundException;
+import com.roger.flippy.repository.CustomerOrderRepository;
+import com.roger.flippy.security.model.AuthenticatedUser;
 import lombok.extern.slf4j.Slf4j;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,6 @@
-package com.stackroute.flippy.service;
+package com.roger.flippy.service;
 
-import com.stackroute.flippy.domain.Order;
+import com.roger.flippy.domain.Order;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

@@ -1,4 +1,4 @@
-package com.stackroute.flippy.util;
+package com.roger.flippy.util;
 
 import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.service.ApiInfo;

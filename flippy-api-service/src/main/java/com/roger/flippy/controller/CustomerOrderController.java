@@ -1,12 +1,12 @@
-package com.stackroute.flippy.controller;
+package com.roger.flippy.controller;
 
-import com.stackroute.flippy.domain.Order;
-import com.stackroute.flippy.dto.OrderDto;
-import com.stackroute.flippy.exception.CustomerNotFoundException;
-import com.stackroute.flippy.exception.OrderExistsException;
-import com.stackroute.flippy.exception.OrderNotFoundException;
-import com.stackroute.flippy.service.CustomerOrderService;
-import com.stackroute.flippy.service.KafkaService;
+import com.roger.flippy.domain.Order;
+import com.roger.flippy.dto.OrderDto;
+import com.roger.flippy.exception.CustomerNotFoundException;
+import com.roger.flippy.exception.OrderExistsException;
+import com.roger.flippy.exception.OrderNotFoundException;
+import com.roger.flippy.service.CustomerOrderService;
+import com.roger.flippy.service.KafkaService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;

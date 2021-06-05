@@ -1,4 +1,4 @@
-package com.stackroute.shoppartner.domain;
+package com.roger.shoppartner.domain;
 
 public class Shop {
 }

@@ -1,11 +1,11 @@
-package com.stackroute.shoppartner.dto;
+package com.roger.shoppartner.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.stackroute.shoppartner.domain.Agent;
-import com.stackroute.shoppartner.domain.Customer;
-import com.stackroute.shoppartner.domain.Item;
-import com.stackroute.shoppartner.domain.ShopPartner;
+import com.roger.shoppartner.domain.Agent;
+import com.roger.shoppartner.domain.Customer;
+import com.roger.shoppartner.domain.Item;
+import com.roger.shoppartner.domain.ShopPartner;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;

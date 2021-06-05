@@ -1,4 +1,4 @@
-package com.stackroute.flippy.security.exception;
+package com.roger.flippy.security.exception;
 
 import org.springframework.security.core.AuthenticationException;
 

@@ -1,11 +1,11 @@
-package com.stackroute.shoppartner.security;
+package com.roger.shoppartner.security;
 
 
-import com.stackroute.shoppartner.security.exception.JwtTokenMalformedException;
-import com.stackroute.shoppartner.security.model.AuthenticatedUser;
-import com.stackroute.shoppartner.security.model.JwtAuthenticationToken;
-import com.stackroute.shoppartner.security.transfer.JwtUserDto;
-import com.stackroute.shoppartner.security.util.JwtTokenValidator;
+import com.roger.shoppartner.security.exception.JwtTokenMalformedException;
+import com.roger.shoppartner.security.model.AuthenticatedUser;
+import com.roger.shoppartner.security.model.JwtAuthenticationToken;
+import com.roger.shoppartner.security.transfer.JwtUserDto;
+import com.roger.shoppartner.security.util.JwtTokenValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider;

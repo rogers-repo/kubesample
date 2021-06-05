@@ -1,4 +1,4 @@
-package com.stackroute.shoppartner.security.model;
+package com.roger.shoppartner.security.model;
 
 
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

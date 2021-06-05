@@ -1,10 +1,10 @@
-package com.stackroute.flippy.dto;
+package com.roger.flippy.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.stackroute.flippy.domain.Agent;
-import com.stackroute.flippy.domain.Customer;
-import com.stackroute.flippy.domain.Item;
-import com.stackroute.flippy.domain.ShopPartner;
+import com.roger.flippy.domain.Agent;
+import com.roger.flippy.domain.Customer;
+import com.roger.flippy.domain.Item;
+import com.roger.flippy.domain.ShopPartner;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;

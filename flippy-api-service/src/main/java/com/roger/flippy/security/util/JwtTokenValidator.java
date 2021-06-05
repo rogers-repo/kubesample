@@ -1,6 +1,6 @@
-package com.stackroute.flippy.security.util;
+package com.roger.flippy.security.util;
 
-import com.stackroute.flippy.security.transfer.JwtUserDto;
+import com.roger.flippy.security.transfer.JwtUserDto;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtException;
 import io.jsonwebtoken.Jwts;

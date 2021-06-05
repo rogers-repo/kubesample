@@ -1,11 +1,11 @@
-package com.stackroute.shoppartner.controller;
+package com.roger.shoppartner.controller;
 
-import com.stackroute.shoppartner.domain.Order;
-import com.stackroute.shoppartner.dto.OrderDto;
-import com.stackroute.shoppartner.exception.OrderNotFoundException;
-import com.stackroute.shoppartner.exception.ShopNotExist;
-import com.stackroute.shoppartner.service.KafkaService;
-import com.stackroute.shoppartner.service.ShopOrderService;
+import com.roger.shoppartner.domain.Order;
+import com.roger.shoppartner.dto.OrderDto;
+import com.roger.shoppartner.exception.OrderNotFoundException;
+import com.roger.shoppartner.exception.ShopNotExist;
+import com.roger.shoppartner.service.KafkaService;
+import com.roger.shoppartner.service.ShopOrderService;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;

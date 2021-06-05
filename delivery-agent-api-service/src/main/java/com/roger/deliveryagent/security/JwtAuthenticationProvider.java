@@ -1,12 +1,12 @@
-package com.stackroute.deliveryagent.security;
+package com.roger.deliveryagent.security;
 
 
 
-import com.stackroute.deliveryagent.security.exception.JwtTokenMalformedException;
-import com.stackroute.deliveryagent.security.model.AuthenticatedUser;
-import com.stackroute.deliveryagent.security.model.JwtAuthenticationToken;
-import com.stackroute.deliveryagent.security.transfer.JwtUserDto;
-import com.stackroute.deliveryagent.security.util.JwtTokenValidator;
+import com.roger.deliveryagent.security.exception.JwtTokenMalformedException;
+import com.roger.deliveryagent.security.model.AuthenticatedUser;
+import com.roger.deliveryagent.security.model.JwtAuthenticationToken;
+import com.roger.deliveryagent.security.transfer.JwtUserDto;
+import com.roger.deliveryagent.security.util.JwtTokenValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider;

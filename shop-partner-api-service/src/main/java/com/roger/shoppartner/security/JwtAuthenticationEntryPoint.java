@@ -1,4 +1,4 @@
-package com.stackroute.shoppartner.security;
+package com.roger.shoppartner.security;
 
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.AuthenticationEntryPoint;

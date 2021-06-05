@@ -1,6 +1,6 @@
-package com.stackroute.shoppartner.security.util;
+package com.roger.shoppartner.security.util;
 
-import com.stackroute.shoppartner.security.transfer.JwtUserDto;
+import com.roger.shoppartner.security.transfer.JwtUserDto;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtException;
 import io.jsonwebtoken.Jwts;
